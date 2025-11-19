@@ -1,0 +1,6 @@
+pyrogram==2.0.67
+tgcrypto
+pytgcalls==2.0.0
+yt-dlp
+spotipy
+ffmpeg-python
