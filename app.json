@@ -1,0 +1,23 @@
+{
+  "name": "Telegram Music Bot",
+  "description": "Powerful Telegram VC music bot by AsikpitX",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Enter your Telegram bot token",
+      "required": true
+    },
+    "API_ID": {
+      "description": "Your telegram API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your telegram API HASH",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
