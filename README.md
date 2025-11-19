@@ -28,3 +28,9 @@ Ping me on Telegram: [@AsikpitX](https://t.me/AsikpitX) 💬
 ```bash
 git clone https://github.com/YourUsername/telegram-music-bot.git
 cd telegram-music-bot
+
+## Deploy on Heroku
+
+Click the button below to deploy 👇
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
