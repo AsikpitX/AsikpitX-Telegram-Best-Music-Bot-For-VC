@@ -26,8 +26,8 @@ Ping me on Telegram: [@AsikpitX](https://t.me/AsikpitX) 💬
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/YourUsername/telegram-music-bot.git
-cd telegram-music-bot
+git clone https://github.com/AsikpitX/AsikpitX-Telegram-Best-Music-Bot-For-VC.git
+cd AsikpitX-Telegram-Best-Music-Bot-For-VC
 
 ## Deploy on Heroku
 
