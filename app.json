@@ -1,6 +1,7 @@
 {
   "name": "Telegram Music Bot",
   "description": "Powerful Telegram VC music bot by AsikpitX",
+  "repository": "https://github.com/AsikpitX/AsikpitX-Telegram-Best-Music-Bot-For-VC",
   "env": {
     "BOT_TOKEN": {
       "description": "Enter your Telegram bot token",
