@@ -2,6 +2,7 @@
   "name": "Telegram Music Bot",
   "description": "Powerful Telegram VC music bot by AsikpitX",
   "repository": "https://github.com/AsikpitX/AsikpitX-Telegram-Best-Music-Bot-For-VC",
+  "keywords": ["telegram", "music", "pyrogram", "pytgcalls"],
   "env": {
     "BOT_TOKEN": {
       "description": "Enter your Telegram bot token",
@@ -16,7 +17,16 @@
       "required": true
     }
   },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
   "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
     {
       "url": "heroku/python"
     }
